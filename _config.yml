@@ -1,0 +1,19 @@
+name: SHHS Coding Club
+name_short: Coding Club
+author: Sleepy Hollow Coding Club
+markdown: redcarpet
+highlighter: true
+description: "@sleepy hollow"
+github: https://www.github.com/shhs-coding-club
+twitter: http://www.twitter.com/
+facebook: http://www.facebook.com
+linkedin: http://www.linkedin.com
+email: rnpatel[at]me.com
+location: Sleepy Hollow, NY
+disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
+about: "The Sleepy Hollow Coding Club is an organization in Sleepy Hollow High School. It aims to promote education in the fields of computer science and technology. Meetings are held every Wednesday in room 300N."
+greeting: "The Sleepy Hollow Coding Club a growing community of students interested in computer science. Please, feel free to look around the site, or to contact any of the club officers!"
+greeting_short: "The computer science club of Sleepy Hollow"

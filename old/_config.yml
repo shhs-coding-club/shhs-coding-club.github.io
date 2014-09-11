@@ -1,0 +1,26 @@
+# Site settings
+title: SHHS Coding Club
+email: your-email@domain.com
+description: "The Sleepy Hollow High School Coding Club is the official school computer science club. It is focused on teaching the concepts of computer science and programming to students."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: github
+    url: http://github.com/shhs-coding-club
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 210 North Broadway
+  - line: Sleepy Hollow, NY 10591
+
+# Build settings
+markdown: kramdown
+permalink: pretty
