@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+.credit
+{
+  display: none !important;
+}
 
 body
 {
@@ -61,7 +65,8 @@ p
 {
   width:80%;
   padding-right:0;
-  padding-top:30px
+  padding-top:30px;
+  min-height: 100%;
 }
 
 .container a
@@ -321,17 +326,20 @@ pre
 
 .credit
 {
-  position: fixed;
-  bottom:0;
-  width:100%;
+  position: absolute;
+  bottom: 0px;
+  /*width:100%;
+  display: inline;*/
+  height: .8em;
   font-size:.8em;
   text-shadow:1px 1px #fff;
-  padding-left:20px;
+  /*padding-left:20px;
   margin-bottom:0;
   padding-bottom:5px;
   padding-top:5px;
   margin-top:40px;
-  z-index:1;
+  z-index:1;*/
+  margin-top: 90%;
   color:#cdcdcd
 }
 
@@ -737,6 +745,7 @@ time
     width: 100%;
     margin: 0 0 0 0;
     padding: 15px 15px 0 15px;
+    min-height: 100%;
   }
 
   #article {

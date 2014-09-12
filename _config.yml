@@ -3,14 +3,15 @@ name_short: Coding Club
 author: Sleepy Hollow Coding Club
 markdown: redcarpet
 highlighter: true
-description: "@sleepy hollow"
+description: "@ sleepy hollow"
 github: https://www.github.com/shhs-coding-club
 twitter: http://www.twitter.com/
 facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
-email: rnpatel[at]me.com
+email: dlarkin[at]tufsd.org
 location: Sleepy Hollow, NY
 disqus: diqus-username
+officers: ["Presidents: Colin Atkinson and Katie Brennan"]
 
 ##Make sure to edit the above fields, especially for disqus.
 

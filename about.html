@@ -8,10 +8,10 @@ layout: about
 		<div class="user-card">
 			<div class="row">
 				<div class="card col-md-3">
-					<img src="{{ site.baseurl }}/images/self.jpg">
+					<img src="{{ site.baseurl }}/images/IMG_20140911_194209.jpg">
 				</div>
 				<div class="col-md-9">
-					<h1>Herring Cove</h1>
+					<h1>About {{ site.name_short }}</h1>
 					<p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ site.location }}</p>
 					<p><i class="fa fa-envelope-o"></i>&nbsp;{{ site.email }} </p>
 					<hr />
@@ -21,6 +21,11 @@ layout: about
 			<div class="row">
 				<div class="col-md-12 letter">
 					<p>{{ site.about }}</p>
+
+                    <h2>Officers</h2>
+                    {%for officer in site.officers %}
+                    <p>{{officer}}</p>
+                    {%endfor%}
 
 				</div>
 			</div>
