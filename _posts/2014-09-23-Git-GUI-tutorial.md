@@ -64,7 +64,7 @@ Git is an important tool, both for the club and in the larger world of developme
     1. `git checkout master`
     2. `git fetch upstream master`
     3. `git reset --hard upstream/master`
-    4. `git clean -fd`
+    4. `git clean -f -d -x`
     5. `git push origin master`
     
     You will be prompted for your password. Note that the text that appears will probably be different from that pictured.
