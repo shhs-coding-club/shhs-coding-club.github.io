@@ -5,11 +5,24 @@ date: 2014-09-23 20:00:00
 categories: git tutorial
 ---
 
+## Table of Contents
+
+* [Introduction](#introduction)
+* [Terms](#terms)
+* [Typical Workflow](#typical-workflow)
+* [Setting Up a Repository](#setting-up-a-repository)
+* [Updating to Upstream](#updating-to-upstream)
+* [Creating a Branch](#creating-a-branch)
+* [Committing and Pushing Changes](#committing-and-pushing-changes)
+* [Installing Git on Your Own Computer](#installing-git-on-your-own-computer)
+* [Common Problems](#common-problems)
+    * [Git says I don't have permission to push to origin](git-says-i-don't-have-permission-to-push-to-origin)
+
 ## Introduction
 
 Git is an important tool, both for the club and in the larger world of development. This is not an in-depth tutorial; rather, it discusses the basic steps needed to run git on the school computers.
 
-### Terms
+## Terms
 * Repository (repo): A place where the history of your work is stored.
 * Commit: When you have made changes to a repository and want them saved as part of its history, you *commit* these changes.
 * Push: When you want to move your repository's history to a repo hosted online (like one on GitHub).
@@ -18,7 +31,7 @@ Git is an important tool, both for the club and in the larger world of developme
 * `master`: The main branch of a repo. In general, it is best not to make changes directly to it, but instead to use it to keep up to date with the upstream repository.
 * Upstream: A term for the repository from which you forked. Your repository is *downstream* from it because information flowed downstream to you.
 
-### Typical Workflow
+## Typical Workflow
 
 1. [Set up a repository](#setting-up-a-repository) (only if not done previously)
 2. [Updating to upstream](#updating-to-upstream)
@@ -95,3 +108,12 @@ Go to http://git-scm.com/downloads and download the right version for your OS. I
 
 Additionally, on OS X and Linux, instead of going to `Repository`&rarr;`Git Bash` as on Windows, you just type those same commands into the command line.
 
+## Common Problems
+
+### Git says I don't have permission to push to origin
+
+This problem is due to your `origin` having been incorrectly set. It can be remedied through the command:
+
+1. `git remote set-url https://github.com/YOUR-USER-NAME-HERE/drugwars.git`
+
+Following this, attempt to push to `origin` and it should work.

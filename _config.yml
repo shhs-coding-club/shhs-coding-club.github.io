@@ -3,7 +3,9 @@ name_short: Coding Club
 author: Sleepy Hollow Coding Club
 markdown: redcarpet
 redcarpet:
-    extensions: [with_toc_data]
+    extensions:
+        - with_toc_data
+        - html_toc
 highlighter: true
 description: "@ sleepy hollow"
 github: https://www.github.com/shhs-coding-club
