@@ -68,23 +68,26 @@ Git is an important tool, both for the club and in the larger world of developme
 
 ## Updating to Upstream
 
-1. Click `Repository`&rarr;`Git Bash`
+1. In Git GUI, go to `Branch`&rarr;`Checkout` and select `master`.
+
+2. Go to `Remote`&rarr;`Fetch from`&rarr;`All`.
+
+3. Click `Repository`&rarr;`Git Bash`
 
     ![screenshot]({{ site.baseurl }}/images/step007.PNG)
 
-2. Type the following commands:
+4. Type the following commands:
 
-    1. `git checkout master`
-    2. `git fetch upstream master`
-    3. `git reset --hard upstream/master`
-    4. `git clean -f -d -x`
-    5. `git push origin master`
+    1. `git reset --hard upstream/master`
+    2. `git clean -fdx`
+
+5. Go to `Remote`&rarr;`Push...` and in the dialog select `master` as the branch and `origin` as the remote.
     
-    You will be prompted for your password. Note that the text that appears will probably be different from that pictured.
+    <!--You will be prompted for your password. Note that the text that appears will probably be different from that pictured.-->
 
     <!--![screenshot]({{ site.baseurl }}/images/step008.PNG)-->
 
-3. You may now close the console window. Your repository is now up to date with upstream!
+3. Your repository is now up to date with upstream! From here, you should create a branch.
 
 ## Creating a Branch
 
