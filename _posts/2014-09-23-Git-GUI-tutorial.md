@@ -117,6 +117,6 @@ Additionally, on OS X and Linux, instead of going to `Repository`&rarr;`Git Bash
 
 This problem is due to your `origin` having been incorrectly set. It can be remedied through the command:
 
-1. `git remote set-url https://github.com/YOUR-USER-NAME-HERE/drugwars.git`
+1. `git remote set-url origin https://github.com/YOUR-USER-NAME-HERE/drugwars.git`
 
 Following this, attempt to push to `origin` and it should work.
