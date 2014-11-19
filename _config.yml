@@ -6,7 +6,8 @@ redcarpet:
     extensions:
         - with_toc_data
         - html_toc
-highlighter: true
+        - fenced_code_blocks
+highlighter: pygments
 description: "@ sleepy hollow"
 github: https://www.github.com/shhs-coding-club
 twitter: http://www.twitter.com/
