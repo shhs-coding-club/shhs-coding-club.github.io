@@ -16,7 +16,7 @@ categories: git tutorial
 * [Committing and Pushing Changes](#committing-and-pushing-changes)
 * [Installing Git on Your Own Computer](#installing-git-on-your-own-computer)
 * [Common Problems](#common-problems)
-    * [Git says I don't have permission to push to origin](git-says-i-don't-have-permission-to-push-to-origin)
+    * [Git says I don't have permission to push to origin](#git-says-i-don't-have-permission-to-push-to-origin)
 
 ## Introduction
 
