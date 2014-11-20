@@ -2,7 +2,7 @@
 title: How to use Git GUI
 layout: post
 date: 2014-09-23 20:00:00
-categories: git tutorial
+categories: git
 ---
 
 ## Table of Contents
@@ -68,7 +68,7 @@ Git is an important tool, both for the club and in the larger world of developme
 
 ## Updating to Upstream
 
-1. In Git GUI, go to `Branch`&rarr;`Checkout` and select `master`.
+1. In Git GUI, go to `Branch`&rarr;`Checkout...` and select `master`.
 
 2. Go to `Remote`&rarr;`Fetch from`&rarr;`All`.
 
@@ -89,13 +89,15 @@ Git is an important tool, both for the club and in the larger world of developme
 
 3. Your repository is now up to date with upstream! From here, you should create a branch.
 
+**If you already made a branch by mistake, check out your branch (`Branch`&rarr;`Checkout...` and select your branch) and type the following command into Git Bash:** `git rebase master`
+
 ## Creating a Branch
 
 1. Click `Branch`&rarr;`Create`.
 2. Fill in a descriptive name for your branch under `Name`.
 3. Select `master` under `Starting Revision`.
 4. Make any changes to the branch and commit them.
-5. To switch between branches, go to `Branch`&rarr;`Checkout` and select the branch you want.
+5. To switch between branches, go to `Branch`&rarr;`Checkout...` and select the branch you want.
 
 ## Committing and Pushing Changes
 
