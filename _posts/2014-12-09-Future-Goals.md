@@ -15,21 +15,21 @@ While the game may appear to be far from finished, most of the groundwork necess
 
 The majority of the basic classes for game logic have been completed. The path for game logic is as follows:
 
-- Implement the basic classes needed
-    - Convert Location to be an enum class
+- <s>Implement the basic classes needed</s>
+    - <s>Convert Location to be an enum class</s>
 - Implement a game loop
     - Method to represent each turn
-    - Method to switch locations
+    - <s>Method to switch locations</s>
     - Methods to buy/sell drugs
         - Price modifiers
-    - Add interest each turn (A=P*e*<sup>rt</sup>, anyone?)
-    - Random police encounters
+    - <s>Add interest each turn (A=P*e*<sup>rt</sup>, anyone?)</s>
+    - <s>Random police encounters</s>
 
 Having implemented this and wrapping it in a UI, the project will essentially be completed!
 
 ## User Interface
 
-- Output player stats
+- <s>Output player stats</s>
 - Output inventory
 - Menus to move around and interact with inventory
 - Put game loop here
