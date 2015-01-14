@@ -30,7 +30,7 @@ Having implemented this and wrapping it in a UI, the project will essentially be
 ## User Interface
 
 - <s>Output player stats</s>
-- Output inventory
+- <s>Output inventory</s>
 - Menus to move around and interact with inventory
 - Put game loop here
 

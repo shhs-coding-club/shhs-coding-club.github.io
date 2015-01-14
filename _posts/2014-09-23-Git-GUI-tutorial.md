@@ -106,6 +106,7 @@ Git is an important tool, both for the club and in the larger world of developme
 3. Click the `Commit` button
 4. Go to `Remote`&rarr;`Push`
 5. Select the branch you want to push (probably not `master`)
+6. You should now go on Github and submit a pull request by clicking the green button with circular arrows on your repository's page
 
 ## Installing Git on Your Own Computer
 
